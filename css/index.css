@@ -37,7 +37,7 @@
 .top-service-list{
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  
 }
 
 .top-service-item{
@@ -105,7 +105,6 @@
 .top-blog-list{
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   margin-top: 20px;
 }
 
