@@ -121,75 +121,77 @@
           value="お問い合わせ"
           class="openBtn bottom-contact-btn btn btn-primary"
         />
-        <div id="modal" class="modal">
-          <div class="modal__content">
-            <div class="modal__content-inner">
-              <input type="button" id="closeBtn" value="×" class="closeBtn"/>
-              <h2 class="top-contact-ttl ttl">お問い合わせ</h2>
-              <div class="contact ptb-m wrap-s">
-                <form class="contact-form" action="index.html" method="post">
-                  <div class="contact-form-item">
-                    <label class="contact-form-item-name" for="company"
-                      >会社名</label
-                    >
-                    <input
-                      type="text"
-                      id="company"
-                      class="contact-form-item-input"
-                    />
-                  </div>
-                  <div class="contact-form-item">
-                    <label class="contact-form-item-name" for="name"
-                      >お名前<span class="contact-form-item-required"
-                        >*</span
-                      ></label
-                    >
-                    <input
-                      type="text"
-                      id="name"
-                      class="contact-form-item-input"
-                      required
-                    />
-                  </div>
-                  <div class="contact-form-item">
-                    <label class="contact-form-item-name" for="email"
-                      >メールアドレス<span class="contact-form-item-required"
-                        >*</span
-                      ></label
-                    >
-                    <input
-                      type="email"
-                      id="email"
-                      class="contact-form-item-input"
-                      required
-                    />
-                  </div>
-                  <div class="contact-form-item">
-                    <label class="contact-form-item-name" for="comment"
-                      >お問い合わせ内容<span class="contact-form-item-required"
-                        >*</span
-                      ></label
-                    >
-                    <textarea
-                      id="comment"
-                      rows="8"
-                      cols="80"
-                      class="contact-form-item-textarea"
-                      required
-                    ></textarea>
-                  </div>
-                  <input
-                    type="submit"
-                    value="お申し込み"
-                    class="contact-form-submit"
-                  />
-                </form>
+      </div>
+    </section>
+    <div id="modal" class="modal">
+      <div class="modal__content">
+        <div class="modal__content-inner">
+          <div class="modal__closeBtn">
+            <input type="button" id="closeBtn" value="×" class="closeBtn" />
+          </div>
+          <h2 class="top-contact-ttl ttl">お問い合わせ</h2>
+          <div class="contact ptb-m">
+            <form class="contact-form" action="index.html" method="post">
+              <div class="contact-form-item">
+                <label class="contact-form-item-name" for="company"
+                  >会社名</label
+                >
+                <input
+                  type="text"
+                  id="company"
+                  class="contact-form-item-input"
+                />
               </div>
-            </div>
+              <div class="contact-form-item">
+                <label class="contact-form-item-name" for="name"
+                  >お名前<span class="contact-form-item-required"
+                    >*</span
+                  ></label
+                >
+                <input
+                  type="text"
+                  id="name"
+                  class="contact-form-item-input"
+                  required
+                />
+              </div>
+              <div class="contact-form-item">
+                <label class="contact-form-item-name" for="email"
+                  >メールアドレス<span class="contact-form-item-required"
+                    >*</span
+                  ></label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  class="contact-form-item-input"
+                  required
+                />
+              </div>
+              <div class="contact-form-item">
+                <label class="contact-form-item-name" for="comment"
+                  >お問い合わせ内容<span class="contact-form-item-required"
+                    >*</span
+                  ></label
+                >
+                <textarea
+                  id="comment"
+                  rows="8"
+                  cols="80"
+                  class="contact-form-item-textarea"
+                  required
+                ></textarea>
+              </div>
+              <input
+                type="submit"
+                value="お申し込み"
+                class="contact-form-submit"
+              />
+            </form>
           </div>
         </div>
       </div>
-    </section>
+    </div>
     <!-- bottom-contact end -->
     <!-- scroll-top -->
     <button class="scroll-top" id="button">↑</button>
