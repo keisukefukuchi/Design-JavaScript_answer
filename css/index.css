@@ -94,7 +94,6 @@
 }
 
 .top-company-list{
-  display: flex;
   align-items: center;
   color: #fff;
   font-size: 24px;
@@ -103,15 +102,11 @@
 }
 
 .top-company-item{
-  width: 50%;
+  width: 100%;
 }
 
 .top-company-link{
   background-color: #cd0224;
-}
-
-.top-recruit-link{
-  background-color: #222;
 }
 
 .top-company-item-link{
