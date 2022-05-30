@@ -3,7 +3,6 @@
 .top-mv{
   height: 80vh;
   display: flex;
-  justify-content: center;
   align-items: center;
   background: url(../img/common/mv.png) center / cover;
   color: #fff;

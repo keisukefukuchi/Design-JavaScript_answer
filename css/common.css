@@ -166,6 +166,7 @@ img {
 }
 
 /* modal */
+
 .openBtn {
   cursor: pointer;
   color: #fff;
@@ -211,6 +212,7 @@ img {
 }
 
 /* contact */
+
 .top-contact-ttl {
   text-align: center;
 }
